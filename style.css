@@ -1,0 +1,240 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(188, 194, 194);
+    
+    
+    
+}
+/*My navigation bar style*/
+.header-nav{
+    height: 50px;
+    
+}
+
+.nav-content{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.link-github{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    
+    margin-left: 100px;
+    padding-top: 20px;
+    
+}
+
+.link-github:hover{
+  font-size: 22px;
+  transition: 2s;
+
+
+  
+}
+
+.link-linkedin{
+    margin-right: 100px;
+    color:aqua;
+
+    
+}
+
+.link-linkedin:hover{
+    
+    font-size: 18px;
+    transition: 2s;
+    
+    
+}
+/*Form style start*/
+
+
+/*form-content is the container of our form*/
+.form-content{
+    margin-left: 350px;
+    padding-top: 50px;
+    margin-bottom: 800px;   
+}
+.box{
+    
+    width: 800px;
+    height: 200px;
+    
+}
+
+
+/*input container class name*/
+.name-conten{
+    
+    
+    align-items: baseline;
+}
+
+/*input style*/
+.name{
+    background-color: rgb(188, 194, 194);
+    margin-left: 80px;
+    width: 500px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+    
+   
+}
+
+
+
+
+
+
+
+
+/*title-content is the form title container*/
+.title-content{
+    margin-left: 250px;
+    padding-bottom: 50px;
+    
+}
+/*old-input style*/
+.old-input{
+    background-color: rgb(188, 194, 194);
+    margin-left: 30px;
+    width: 500px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+}
+
+/*date-birth style*/
+.date-birth{
+    background-color: rgb(188, 194, 194);
+    margin-left: 68px;
+    width: 500px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+}
+
+/*sex-content style*/
+.sex-content{
+    align-items: baseline;
+    display: flex;
+    gap: 20px;
+}
+
+/*phone-number style*/
+.phone-number{
+    
+    background-color: rgb(188, 194, 194);
+    margin-left: 50px;
+    padding-top: 15px;
+    width: 500px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+}
+
+/*e-mail style*/
+.e-mail{
+    background-color: rgb(188, 194, 194);
+    margin-left: 108px;
+    padding-top: 15px;
+    width: 504px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+}
+
+/*road-input style*/
+.road-input{
+    background-color: rgb(188, 194, 194);
+    margin-left: 110px;
+    padding-top: 15px;
+    width: 504px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+}
+
+/*number-address style*/
+.number-address{
+    background-color: rgb(188, 194, 194);
+    margin-left: 93px;
+    padding-top: 15px;
+    width: 504px;
+    height: 26px;
+    outline: none;
+    caret-color: 2px solid rgb(27, 26, 26);
+    border: none;
+    border-bottom: 2px solid rgb(27, 26, 26);
+
+}
+/*select style*/
+.select-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    gap: 125px;
+    margin-top: 55px;
+
+}
+
+.select-country{
+          margin-left: 23px;
+          background-color: rgb(188, 194, 194) ;
+}
+
+.select-city{
+    background-color: rgb(188, 194, 194) ;
+
+}
+/*textarea style*/
+.message{
+    margin-top: 55px;
+}
+/*button style*/
+button{
+    background-color: rgb(188, 194, 194);
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: black;
+    border: 2px solid rgb(188, 194, 194) ;
+    color: rgb(188, 194, 194);
+    cursor: pointer;
+    
+    transition: 1s;
+}
+/*footer style*/
+footer{
+    margin-left: 550px;
+    height: 55px;
+    
+}

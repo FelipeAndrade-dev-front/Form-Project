@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--In this snippet are the meta data where utf-8 says the most used universal language
+         for writing our code and the viewport for the responsiveness of the page.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title of my project that appears in the browser tab-->
+    <title>Project Form &#x1F4DD;</title>
+
+
+    <!--Link to my css file-->
+    <link rel="stylesheet" href="/style.css">
+
+    <!--Link to Font Awesome,
+        with this external link we created the Linkdin icon,
+         which will serve to lead to my personal Linkedin profile
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!--navigation bar-->
+    <header class="header-nav">
+        <nav class="nav-content">
+            <a class="link-github" href="https://github.com/FelipeAndrade-dev-front/Form-Project.git"
+                target="_blank"><strong>Felipe Andrade</strong></a>
+            <a class="link-linkedin" href="https://www.linkedin.com/in/felipe-andrade-956a13181/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-shake fa-2xl" style="color: black;"></i></a>
+        </nav>
+    </header>
+    <!--main will be the main container of my form-->
+    <main class="main-content">
+        <form id="form-1" class="form-content">
+            <div class="title-content">
+                <h1 class="main-title">Personal Form</h1>
+                <h3 class="sub-title" style="font-size: 16px; margin-left: 15px;">Enter your personal data</h3>
+            </div>
+
+            
+            <div class="box name-conten">
+                <h2>Personal Data</h2>
+
+                <div class="input-content">
+                    <label for="name" class="first-name">First Name</label>
+                    <input class="name" type="text" pattern="[A-Za-z]*" placeholder="write your name">
+                    <br><br>
+                    <label for="name" class="last-name">Last Name</label>
+                    <input class="name" type="text" pattern="[A-Za-z ]*>" placeholder="write your last name">
+                </div>
+            </div>
+            <div class="box dados-content">
+
+                
+
+                <label for="old" class="old-title">How old are you?</label>
+                <input class="old-input" type="number" placeholder="write your old">
+                <br><br>
+                <label for="date-birth" class="date--title">Date of Birth</label>
+                <input class="date-birth" type="date">
+                <br><br><br>
+
+
+                <div class="sex-content">
+
+                    <label for="sex" class="sex-title">Sex :</label>
+
+                    <p>Woman</p><input class="sex" type="checkbox">
+
+                    <p>Man</p><input class="sex" type="checkbox">
+                </div>
+
+                <label for="phone-number" class="phone-number-title">Phone number</label>
+                <input class="phone-number" type="number" placeholder="your phone number">
+                <br><br>
+
+                <label for="e-mail" class="emailr-title">E-mail</label>
+                <input class="e-mail" type="email" placeholder="write your e-mail">
+                <br><br>
+
+                <h2>Address</h2>
+
+                <div class="address-content">
+
+                    <label for="road" class="road-title">Road</label>
+                    <input class="road-input" type="text" pattern="[A-Za-z]*" placeholder="your street name">
+                    <br><br>
+                    <label for="name" class="number-title">Number</label>
+                    <input class="number-address" type="number" placeholder="your house number"><br><br>
+
+                    <div class="select-content">
+
+                        <label for="name-city">City :</label>
+                        <select class="select-city"> <!--I'm using the select tag to create a hidden list of countries and their capitals to be selected by the user-->
+                            <option class="option-city" value="BR">São Paulo</option>
+                            <option class="option-city" value="Pt">Lisboa</option>
+                            <option class="option-city" value="UK">Londres</option>
+                            <option class="option-city" value="ES">Madrid</option>
+                            <option class="option-city" value="IT">Milano</option>
+                            <option class="option-city" value="IE">Dublin</option>
+                            <option class="option-city" value="ch">Zuric</option>
+                            <option class="option-city" value="FR">Paris</option>
+
+                        </select>
+                        <label for="name-country">Country :</label>
+                        <select class="select-country">
+                            <option class="option-city" value="BR">Brasil</option>
+                            <option class="option-city" value="Pt">Portugal</option>
+                            <option class="option-city" value="UK">Inglaterra</option>
+                            <option class="option-city" value="ES">Espanha</option>
+                            <option class="option-city" value="IT">Italia</option>
+                            <option class="option-city" value="IE">Irlanda</option>
+                            <option class="option-city" value="ch">Zuric</option>
+                            <option class="option-city" value="FR">Paris</option>
+
+                        </select>
+                    </div>
+
+                    <h2 class="message">Leave your message</h2>
+
+                    <textarea name="" id="" cols="92" rows="15">
+
+                    </textarea><br>
+                    <button type="submit" style="width: 65px; height: 30px;">Send</button>
+                </div>
+
+
+
+
+            </div>
+
+    </main>
+
+    <footer>
+        <p>Created by &copy; <a style="text-decoration: none; color: black;" href="https://github.com/FelipeAndrade-dev-front/Form-Project.git"
+            target="_blank"><strong>Felipe Andrade</strong></a> 2023</p>
+    </footer>
+
+</body>
+
+</html>
