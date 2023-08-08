@@ -222,12 +222,14 @@ button{
     background-color: rgb(188, 194, 194);
     border: 2px solid;
     border-radius: 3px;
+    
 }
 
 button:hover{
-    background-color: black;
-    border-color:  white ;
-    color: rgb(188, 194, 194);
+    border-color: white;
+    color: white;
+    
+    border-radius: 3px;
     cursor: pointer;
     
     transition: 1s;
