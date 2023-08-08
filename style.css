@@ -226,7 +226,7 @@ button{
 
 button:hover{
     background-color: black;
-    border: 2px solid rgb(188, 194, 194) ;
+    border-color:  white ;
     color: rgb(188, 194, 194);
     cursor: pointer;
     
