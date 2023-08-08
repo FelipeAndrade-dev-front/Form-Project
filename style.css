@@ -227,7 +227,7 @@ button{
 
 button:hover{
     border-color: white;
-    color: white;
+    color: black;
     
     border-radius: 3px;
     cursor: pointer;
